@@ -1,8 +1,21 @@
-# minigames_pysc2
-Some homemade minigames for pysc2 library
-#Description
+# Minigames for RL's agents in pysc2
+
+
+# SentryvsLing
+
+A mini game where the goal is to defeat 5 zerglings with only 2 sentries. This is an imbalanced situation where we need to use the sentry abilities for defeat the opponent's army
+
+Reward system :
++10 for each zergling killed
+-5 for each sentry killed
+
+Notes : 
+-sentry are created with full energy
 
 # LingBlingMirror
-A mini game where the goal is to defeat the opponent's army. This is  a mirror of 4banelings and 5 zerglings  army.
+A mini game where the goal is to defeat the opponent's army. This is  a mirror of 4 banelings and 5 zerglings.
 
-The reward function is -1 for each second passed throught the game, +20 when we finish the game, -4 for each unit dies.
+Reward system :
+-1 for each second in the game
++20 for victory
+-4 for each units dies
